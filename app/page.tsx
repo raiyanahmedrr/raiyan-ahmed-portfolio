@@ -2,7 +2,7 @@
 import Footer from "@/components/Footer";
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import MasterScene from "@/components/canvas/Scene"; 
+import MasterScene from "../components/canvas/Scene";
 import Works from "@/components/Works";
 import About from "@/components/About";
 
