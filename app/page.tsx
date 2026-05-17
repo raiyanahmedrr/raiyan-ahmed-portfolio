@@ -1,10 +1,10 @@
 "use client";
-import Footer from "../components/Footer";
+import Footer from "@/components/Footer";
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import MasterScene from "../components/canvas/Scene"; 
-import Works from "../components/Works";
-import About from "../components/About";
+import MasterScene from "@/components/canvas/Scene"; 
+import Works from "@/components/Works";
+import About from "@/components/About";
 
 export default function Home() {
   const loaderRef = useRef<HTMLDivElement>(null);
